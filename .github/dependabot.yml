@@ -9,8 +9,6 @@ updates:
         versions: ["9.x"]
     allow: 
       - dependency-type: "all"
-    commit-message:
-      include: "scope"
     
 
 
