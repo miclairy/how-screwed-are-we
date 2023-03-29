@@ -7,7 +7,8 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "prepare": "cd ../ husky install app/.husky"
+    "prepare": "cd ../ husky install app/.husky",
+    "merge-dependabot": "func() { for i in $(git branch -r | grep 'origin/dependabot/npm_and_yarn/'); do git merge $i; done; }; func"
   },
   "dependencies": {
     "@emotion/react": "^11.10.6",
