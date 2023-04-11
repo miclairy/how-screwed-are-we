@@ -3,7 +3,9 @@ updates:
   - package-ecosystem : "npm"
     directory: "./app"
     schedule:
-      interval: "daily"
+      interval: "weekly"
+      day: "monday"
+      time: "07:00"
     ignore: 
       - dependency-name: "swiper"
         versions: ["9.x"]
