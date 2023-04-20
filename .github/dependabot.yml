@@ -1,6 +1,6 @@
-version: 2
+version: 2    
+registries: "*"
 updates:
-  
   - package-ecosystem : "npm"
     directory: "./app"
     schedule:
@@ -12,7 +12,7 @@ updates:
         versions: ["9.x"]
     allow: 
       - dependency-type: "all"
-    registries: "*"
+
     
     
 
