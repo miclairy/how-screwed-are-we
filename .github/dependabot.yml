@@ -11,6 +11,7 @@ updates:
         versions: ["9.x"]
     allow: 
       - dependency-type: "all"
+    registries: *
     
 
 
